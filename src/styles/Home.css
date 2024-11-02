@@ -1,0 +1,120 @@
+.home-container {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Internship Section */
+.internship-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.internship-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.internship-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.internship-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internship-card h3 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.internship-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.testimonials {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial {
+    max-width: 300px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial p:last-child {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}

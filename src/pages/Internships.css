@@ -1,0 +1,87 @@
+/* src/pages/Internships.css */
+
+.internships-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.filter-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.internship-form {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.internship-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.internship-form input,
+.internship-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.internship-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.internship-form button:hover {
+    background-color: #0056b3;
+}
+
+.internship-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.internship-list li {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.internship-list h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.internship-list p {
+    margin: 5px 0;
+}

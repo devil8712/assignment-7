@@ -1,0 +1,21 @@
+/* src/components/Header.css */
+header {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white; /* Underline effect on hover */
+}
